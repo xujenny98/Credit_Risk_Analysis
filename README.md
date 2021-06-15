@@ -1,32 +1,31 @@
 # Supervised machine learning and credit risk
 **Overview of the loan prediction risk analysis:**
-Machine Learning Models are evaluated against financial data to determine credit risk. This is performed within Python & Jupyter Notebook in Anaconda.
+<br/>Machine Learning Models are evaluated against financial data to determine credit risk. This is performed within Python & Jupyter Notebook in Anaconda.
 Key resources utilized are:
--sklearn
--imbalanced learn
+<br/>-sklearn
+<br/>-imbalanced learn
 
-Goal is to compare 6 Machine Learning Models against the raw data set & provide judgement on the models based on observations for Accuracy, Precision, Recall:
-
--Naive Random Oversampling
--SMOTE Oversampling
--Undersampling
--Combination (Over and Under) Sampling
--Balanced Random Forest Classifier
--Easy Ensemble AdaBoost Classifier
+<br/>Goal is to compare 6 Machine Learning Models against the raw data set & provide judgement on the models based on observations for Accuracy, Precision, Recall:
+<br/>-Naive Random Oversampling
+<br/>-SMOTE Oversampling
+<br/>-Undersampling
+<br/>-Combination (Over and Under) Sampling
+<br/>-Balanced Random Forest Classifier
+<br/>-Easy Ensemble AdaBoost Classifier
 
 # Results:
 **Naive Random Oversampling**
-![naive_oversampling](https://user-images.githubusercontent.com/77771292/122001944-1b731680-cd7f-11eb-9c85-2676693758c6.PNG)
+<br/>![naive_oversampling](https://user-images.githubusercontent.com/77771292/122001944-1b731680-cd7f-11eb-9c85-2676693758c6.PNG)
 **SMOTE Oversampling**
-![smote_oversampling](https://user-images.githubusercontent.com/77771292/122002028-3b0a3f00-cd7f-11eb-97bb-556901af1dce.PNG)
+<br/>![smote_oversampling](https://user-images.githubusercontent.com/77771292/122002028-3b0a3f00-cd7f-11eb-97bb-556901af1dce.PNG)
 **Clustered Centroids Undersampling**
-![clustered_centroids_undersampling](https://user-images.githubusercontent.com/77771292/122002114-54ab8680-cd7f-11eb-8596-b8e48eb61b12.PNG)
+<br/>![clustered_centroids_undersampling](https://user-images.githubusercontent.com/77771292/122002114-54ab8680-cd7f-11eb-8596-b8e48eb61b12.PNG)
 **Combination (Over and Under) Sampling with SMOTEENN**
-![smoteenn_over_and_undersampling](https://user-images.githubusercontent.com/77771292/122002249-80c70780-cd7f-11eb-97c6-cf4471ac2151.PNG)
+<br/>![smoteenn_over_and_undersampling](https://user-images.githubusercontent.com/77771292/122002249-80c70780-cd7f-11eb-97c6-cf4471ac2151.PNG)
 **Balanced Random Forest Classifier**
-![balanced_random_forest](https://user-images.githubusercontent.com/77771292/122002338-9d633f80-cd7f-11eb-9260-15a7de4c1745.PNG)
+<br/>![balanced_random_forest](https://user-images.githubusercontent.com/77771292/122002338-9d633f80-cd7f-11eb-9260-15a7de4c1745.PNG)
 **Easy Ensemble AdaBoost Classifier**
-![easy_ensemble_classifier](https://user-images.githubusercontent.com/77771292/122002410-b10ea600-cd7f-11eb-94b9-68958bb4126e.PNG)
+<br/>![easy_ensemble_classifier](https://user-images.githubusercontent.com/77771292/122002410-b10ea600-cd7f-11eb-94b9-68958bb4126e.PNG)
 
 # Summary:
 Best overall model to use is "Easy Ensemble AdaBoost Classifier" based on higher Balanced Accuracy & Sensitivity result.
