@@ -14,17 +14,17 @@ Key resources utilized are:
 <br/>-Easy Ensemble AdaBoost Classifier
 
 # Results:
-**Naive Random Oversampling**
+<br/>**Naive Random Oversampling**
 <br/>![naive_oversampling](https://user-images.githubusercontent.com/77771292/122001944-1b731680-cd7f-11eb-9c85-2676693758c6.PNG)
-**SMOTE Oversampling**
+<br/>**SMOTE Oversampling**
 <br/>![smote_oversampling](https://user-images.githubusercontent.com/77771292/122002028-3b0a3f00-cd7f-11eb-97bb-556901af1dce.PNG)
-**Clustered Centroids Undersampling**
+<br/>**Clustered Centroids Undersampling**
 <br/>![clustered_centroids_undersampling](https://user-images.githubusercontent.com/77771292/122002114-54ab8680-cd7f-11eb-8596-b8e48eb61b12.PNG)
-**Combination (Over and Under) Sampling with SMOTEENN**
+<br/>**Combination (Over and Under) Sampling with SMOTEENN**
 <br/>![smoteenn_over_and_undersampling](https://user-images.githubusercontent.com/77771292/122002249-80c70780-cd7f-11eb-97c6-cf4471ac2151.PNG)
-**Balanced Random Forest Classifier**
+<br/>**Balanced Random Forest Classifier**
 <br/>![balanced_random_forest](https://user-images.githubusercontent.com/77771292/122002338-9d633f80-cd7f-11eb-9260-15a7de4c1745.PNG)
-**Easy Ensemble AdaBoost Classifier**
+<br/>**Easy Ensemble AdaBoost Classifier**
 <br/>![easy_ensemble_classifier](https://user-images.githubusercontent.com/77771292/122002410-b10ea600-cd7f-11eb-94b9-68958bb4126e.PNG)
 
 # Summary:
